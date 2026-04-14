@@ -42,5 +42,19 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 3. Import the dataset into table `sales`
 4. Run `sql/02_cleaning.sql` and `sql/03_analysis.sql`
 
+## Outputs (CSV)
+- [Revenue by month](outputs/tables/revenue_by_month.csv)
+- [Revenue by weekday](outputs/tables/revenue_by_weekday.csv)
+- [Top countries](outputs/tables/top_countries.csv)
+- [Top products](outputs/tables/top_products.csv)
+
+## Quick KPIs
+| Metric | Value |
+|---|---:|
+| Total revenue | £XX,XXX,XXX |
+| Total orders | XX,XXX |
+| Customers (with ID) | XX,XXX |
+| Best month | YYYY-MM |
+
 ## License
 MIT
