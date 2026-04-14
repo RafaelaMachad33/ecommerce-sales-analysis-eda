@@ -8,7 +8,7 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 - SQL (SQLite)
 
 ## Dataset
-- Source: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+- Source: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci  
 - Main fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
 
 > Note: Raw data is not included in this repo due to size/licensing.  
@@ -25,12 +25,13 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 - Filtered invalid rows (Quantity <= 0, UnitPrice <= 0)
 - Standardized date parsing for time-based analysis
 - Created `Revenue = Quantity * UnitPrice`
-- Optional: excluded cancelled invoices (InvoiceNo starting with "C")
+- Excluded cancelled invoices (Invoice starting with "C")
 
 ## Key Insights
-- **Top country (#1) + revenue**
-- **Top product (#1) + revenue**
-- **Month with the highest revenue**
+- The **United Kingdom** was the main revenue driver, generating **£17,870,977.78** across **36,535 orders**.
+- Peak monthly performance occurred in **2011-11**, reaching **£1,509,496.33** in revenue.
+- The top product by revenue was **REGENCY CAKESTAND 3 TIER**, generating **£344,563.25** from **27,577 units sold**.
+- Two other strong revenue contributors were **Manual (£340,716.28)** and **DOTCOM POSTAGE (£322,657.48)**.
 
 ## How to reproduce (SQLite)
 1. Create a SQLite database (e.g., `ecommerce.db`)
