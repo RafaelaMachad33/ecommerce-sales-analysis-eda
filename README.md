@@ -10,6 +10,7 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 ## Dataset
 - Source: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci  
 - Main fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+- https://www.kaggle.com/code/rafaelamachadosoares/ecommerce-sales-analysis-eda
 
 > Note: Raw data is not included in this repo due to size/licensing.  
 > Download it from Kaggle and import it into SQLite.
