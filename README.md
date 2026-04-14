@@ -42,19 +42,18 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 3. Import the dataset into table `sales`
 4. Run `sql/02_cleaning.sql` and `sql/03_analysis.sql`
 
+## Quick KPIs
+| Metric | Value |
+|---|---:|
+| Total revenue | £17,870,977.78 (UK only, top country) |
+| Best month | 2011-11 (£1,509,496.33) |
+| Top product | REGENCY CAKESTAND 3 TIER (£344,563.25) |
+
 ## Outputs (CSV)
 - [Revenue by month](outputs/tables/revenue_by_month.csv)
 - [Revenue by weekday](outputs/tables/revenue_by_weekday.csv)
 - [Top countries](outputs/tables/top_countries.csv)
 - [Top products](outputs/tables/top_products.csv)
-
-## Quick KPIs
-| Metric | Value |
-|---|---:|
-| Total revenue | £XX,XXX,XXX |
-| Total orders | XX,XXX |
-| Customers (with ID) | XX,XXX |
-| Best month | YYYY-MM |
 
 ## License
 MIT
