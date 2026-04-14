@@ -33,6 +33,9 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 - The top product by revenue was **REGENCY CAKESTAND 3 TIER**, generating **£344,563.25** from **27,577 units sold**.
 - Two other strong revenue contributors were **Manual (£340,716.28)** and **DOTCOM POSTAGE (£322,657.48)**.
 
+## Visuals
+![Revenue by month](assets/revenue_by_month.png)
+
 ## How to reproduce (SQLite)
 1. Create a SQLite database (e.g., `ecommerce.db`)
 2. Run `sql/01_create_tables.sql`
