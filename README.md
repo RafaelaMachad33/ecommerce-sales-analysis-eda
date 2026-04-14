@@ -28,9 +28,9 @@ Investigated **revenue trends**, **top-selling products**, **seasonality**, and 
 - Optional: excluded cancelled invoices (InvoiceNo starting with "C")
 
 ## Key Insights
-- [Insight 1]
-- [Insight 2]
-- [Insight 3]
+- **Top country (#1) + revenue**
+- **Top product (#1) + revenue**
+- **Month with the highest revenue**
 
 ## How to reproduce (SQLite)
 1. Create a SQLite database (e.g., `ecommerce.db`)
